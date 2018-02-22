@@ -1,0 +1,35 @@
+{
+  "name": "apollo-client-utils",
+  "version": "0.1.0",
+  "description": "Utility library for Apollo GraphQL client",
+  "main": "./dist/index.js",
+  "keywords": [
+    "apollo",
+    "graphql",
+    "utils",
+    "helpers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertgonzales/apollo-client-utils.git"
+  },
+  "author": "Robert Gonzales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertgonzales/apollo-client-utils/issues"
+  },
+  "homepage": "https://github.com/robertgonzales/apollo-client-utils#readme",
+  "scripts": {
+    "prepublish": "babel src --out-dir ./"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.mergewith": "^4.6.1"
+  }
+}
